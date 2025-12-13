@@ -199,6 +199,7 @@ while running:
         text_st = font_help.render('get the most amount of points to win the game', True, (255, 255, 255))
         screen.blit(text_st, (100, 250))
 
+
         #back buton
         b_target = pygame.Rect(50, 50, 150, 50)
         b_collision = b_target.collidepoint(mpos)
