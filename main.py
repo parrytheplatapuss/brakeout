@@ -12,7 +12,7 @@ clock = pygame.time.Clock()
 
 #sound effects
 sound = pygame.mixer.Sound('glass-bottle-shatter-84593.mp3')
-pygame.mixer.music.load('joyful-carnival-trumpet-232017.mp3')
+music = pygame.mixer.music.load('joyful-carnival-trumpet-232017.mp3')
 
 #menu picker varubles
 menu = True
